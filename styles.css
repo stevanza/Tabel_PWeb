@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    border: 2px solid #555;
+}
+
+th, td {
+    border: 2px solid #555;
+    padding: 10px;
+    text-align: left;
+}
+
+th.highlight {
+    background-color: #FFC107;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-cell {
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.scores-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.scores-table td {
+    text-align: center;
+}
